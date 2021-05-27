@@ -1,7 +1,5 @@
 # React Router Demo Application
 
----
-
 ### Files to check:
 
 1. App.js
