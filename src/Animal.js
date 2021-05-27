@@ -25,15 +25,15 @@ export default function Animal(props) {
     setPicture(searched.picture);
   }, [params]);
 
-  const toFriendsPage = () => {
-    history.push("/friends", { x: 10, y: 20 });
+  const toAboutPage = () => {
+    history.push("/about", { x: 10, y: 20 });
   };
   return (
     <div>
       <h2>This is {name}</h2>
       <p>
         View developer info here:{" "}
-        <button onClick={toFriendsPage} className="btn btn-primary">
+        <button onClick={toAboutPage} className="btn btn-primary">
           Vinod
         </button>
       </p>
